@@ -14,7 +14,7 @@
 | **Chat History** | إدارة تاريخ المحادثات |
 | **Streaming** | استقبال الردود بشكل streaming |
 
-##هيكل المشروع
+هيكل المشروع
 
 ```
 ai_project/
@@ -49,26 +49,26 @@ ai_project/
 └── .env.example             # مثال على المتغيرات البيئية
 ```
 
-##طريقة التشغيل
+طريقة التشغيل
 
-### 1. تثبيت المتطلبات
+ 1. تثبيت المتطلبات
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. إعداد المتغيرات البيئية
+ 2. إعداد المتغيرات البيئية
 ```bash
 cp .env.example .env
 # عدّل الـ .env وحط الـ API keys
 ```
 
-### 3. تشغيل النموذج المحلي (اختياري)
+ 3. تشغيل النموذج المحلي (اختياري)
 ```bash
 # تثبيت Ollama من ollama.com
 ollama pull llama3.2
 ```
 
-### 4. تشغيل المشروع
+ 4. تشغيل المشروع
 ```bash
 # CLI mode
 python main.py --mode cli
